@@ -1,0 +1,14 @@
+{
+  "name": "dagsec-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sample app with outdated dependencies, used to demo dagsec.",
+  "main": "src/index.js",
+  "scripts": { "start": "node src/index.js" },
+  "dependencies": {
+    "axios": "1.15.0",
+    "express": "4.17.1",
+    "lodash": "4.17.4",
+    "minimist": "1.2.0"
+  }
+}
